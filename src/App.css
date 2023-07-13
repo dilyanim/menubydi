@@ -1,0 +1,94 @@
+.container{
+    width: 90% ;
+    margin: 0 auto ;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+#header{
+    background: black;
+}
+.header-nav{
+    margin: 0 0 0  270px;
+}
+.header a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 40px;
+}
+.header-btn{
+    transition: 3s;
+    cursor: pointer;
+    border: none;  
+}
+.right:hover {
+    background: #40AB7E;
+    color: #000000;
+    transition: 0,7s;
+    
+}
+.left:hover {
+    background: #40AB7E;
+    color: #000000;
+    transition: 0,6s;
+    
+}
+.right{
+    background: #000000;
+    color: #40AB7E;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 30px;
+    border: 2px solid #40AB7E;
+    width: 140px;
+    height: 40px;
+    margin: 0 10px;
+    transition: 2s;
+    
+}
+.left{
+    background: #000000;
+    color: #40AB7E ;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 30px;
+    border: 2px solid #40AB7E;
+    width: 140px;
+    height: 40px;
+    transition: 2s;
+    
+}
+
+.menu-title{
+    margin: 50px 30px;
+}
+.menu-title h1{
+    font-size: 40px
+}
+.recipe-title{
+    margin: 110px 30px;
+
+}
+#footer{
+   background: #404149;
+    padding: 20px;
+}
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title p{
+    color: aliceblue;
+    
+}
+
